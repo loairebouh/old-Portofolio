@@ -1,3 +1,6 @@
+html{
+    text-decoration: none;
+}
 .name{
     color: white;
     display: inline-block;
@@ -16,4 +19,9 @@
     height: 100%;
     padding-left: 20px;
     padding-top: 5px;
+    margin-left: var(2px,auto);
+    margin-right: var(2px,auto);
+    max-height: var(2px,none);
+    max-width: var(2px,100%);
+    border-radius: var(2px,none);
 }
