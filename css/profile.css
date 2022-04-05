@@ -1,10 +1,19 @@
-.profile-header{
-    background-image: url("../assets/images/profile_background.png");
+.name{
+    color: white;
     display: inline-block;
-    width: 100%;
-    color:white !important;
-    font-size: 1.8rem;
-    text-align: left;
-    font-weight: 600;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    font-size: 1.9rem;
     font-family: Overpass,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.profile_background{
+    background-image: url("../assets/images/profile_background.png");
+    width: 100%;
+}
+.avatar{
+    display: inline-block;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 5px;
 }
