@@ -1,6 +1,12 @@
 html{
     text-decoration: none;
 }
+img{
+    border-radius: 50%;
+}
+body{
+    background-color: #0b1622;
+}
 .name{
     color: white;
     display: inline-block;
@@ -23,5 +29,4 @@ html{
     margin-right: var(2px,auto);
     max-height: var(2px,none);
     max-width: var(2px,100%);
-    border-radius: var(2px,none);
 }
