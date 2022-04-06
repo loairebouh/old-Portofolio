@@ -90,6 +90,19 @@ width: 100%;
     text-decoration: none;
     margin: 0 10px 10px;
     transition-duration: 300ms;
+    display: block;
+}
+.github-card{
+    color:white;
+    font-size: 1.4rem;
+    text-align: center;
+    padding-right: 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 1.4rem;
+    font-weight: 600;
+    transition-duration: 300ms;
 }
 .discord{
     color:white;
@@ -118,7 +131,7 @@ width: 100%;
     font-family: inherit;
     font-size: 1.4rem;
     font-weight: 600;
-    transition-duration: 300ms;
+    transition-duration: 500ms;
 }
 .steam:hover{
     color:red;
