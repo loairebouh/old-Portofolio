@@ -91,7 +91,7 @@ width: 100%;
 .content-wrap{
     background: #151f2e;
     border-radius: 4px;
-    font-size: 1.4rem;
+    font-size: 1rem;
     margin-bottom: 25px;
     padding: 20px;
     box-sizing: border-box;
@@ -110,15 +110,11 @@ width: 100%;
 }
 .about{
     box-sizing: border-box;
-    color: rgb(255,69,40);
+    color: #55697e;
     font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
     overflow-wrap: break-word;
     word-break: break-word;
     font-size: 1.4rem;
-}
-.progressbarbackground{
-    background-color: rgb(15, 22, 31);
-    width: 100%;
 }
 .stats-wrap{
     display: grid;
@@ -126,17 +122,45 @@ width: 100%;
     grid-column-gap: 0;
     grid-auto-flow: column;
     justify-items: stretch;
-    padding: 20px 10px;
     text-align: center;
 }
-.progress{
-    background: rgb(122, 86, 86);
+.lang-title-wrap{
+    display: inline;
+}
+.langlogos{
+    display: inline;
+    max-height: 100%;
+}
+.currently-studying{
+    color:white;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    padding-bottom: 0px;
+}
+.progresscpp{
+    background: rgb(15,22,31);
     height: 11px;
     padding: 0 16.5%;
     box-sizing: border-box;
     border-radius: 50px 50px 50px 50px;
+    margin-bottom: 10px;
 }
-.progress .bar{
+.cpp{
+    color:#02a9ff;
+    margin: 0px 0px 0px 0px;
+    font-size: 1.4rem;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 10px;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.progresscpp .barcpp{
     background: linear-gradient(270deg,#02a9ff,#71cfff);
     border-radius: 50px 50px 50px 50px;
     box-sizing: content-box;
@@ -144,16 +168,12 @@ width: 100%;
     margin-left: -25%;
     padding-right: 25%;
 }
-.footer{
-    background: #151f2e;
-    box-sizing: border-box;
-}
-.milestones .milestone{
+.milestonescpp .milestone{
     display: inline-block;
     position: relative;
     text-align: center;
 }
-.milestones{
+.milestonescpp{
     color: white;
     display: grid;
     font-size: 1.1rem;
@@ -162,12 +182,157 @@ width: 100%;
     overflow: hidden;
     padding: 11px 0;
     box-sizing: border-box;
+    transition: 600ms;
 }
-.milestones:hover{
+.milestonescpp:hover{
+color: #0f74a3;
+}
+.html{
+    color:rgb(218,65,39);
+    margin: 0px 0px 0px 0px;
+    font-size: 1.4rem;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 10px;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.progresshtml{
+    background: #290202;
+    height: 11px;
+    padding: 0 16.5%;
+    box-sizing: border-box;
+    border-radius: 50px 50px 50px 50px;
+    margin-bottom: 10px;
+}
+.progresshtml .barhtml{
+    background: linear-gradient(270deg,#ff0000,#c77169);
+    border-radius: 50px 50px 50px 50px;
+    box-sizing: content-box;
+    height: 100%;
+    margin-left: -25%;
+    padding-right: 25%;
+}
+.milestoneshtml .milestone{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+.milestoneshtml{
+    color: white;
+    display: grid;
+    font-size: 1.1rem;
+    font-weight: 500;
+    grid-template-columns: repeat(3,1fr);
+    overflow: hidden;
+    padding: 11px 0;
+    box-sizing: border-box;
+    transition: 600ms;
+}
+.milestoneshtml:hover{
 color: #cf7070;
 }
+.css{
+    color:#02a9ff;
+    margin: 0px 0px 0px 0px;
+    font-size: 1.4rem;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 10px;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.progresscss{
+    background: #02334f;
+    height: 11px;
+    padding: 0 16.5%;
+    box-sizing: border-box;
+    border-radius: 50px 50px 50px 50px;
+    margin-bottom: 10px;
+}
+.progresscss .barcss{
+    background: linear-gradient(270deg,#02a9ff,#71cfff);
+    border-radius: 50px 50px 50px 50px;
+    box-sizing: content-box;
+    height: 100%;
+    margin-left: -25%;
+    padding-right: 25%;
+}
+.milestonescss .milestone{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+.milestonescss{
+    color: white;
+    display: grid;
+    font-size: 1.1rem;
+    font-weight: 500;
+    grid-template-columns: repeat(3,1fr);
+    overflow: hidden;
+    padding: 11px 0;
+    box-sizing: border-box;
+    transition: 600ms;
+}
+.milestonescss:hover{
+color: #0d95e4;
+}
+.js{
+    color:yellow;
+    margin: 0px 0px 0px 0px;
+    font-size: 1.4rem;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 10px;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.progressjs{
+    background: #4c4f02;
+    height: 11px;
+    padding: 0 16.5%;
+    box-sizing: border-box;
+    border-radius: 50px 50px 50px 50px;
+    margin-bottom: 10px;
+}
+.progressjs .barjs{
+    background: linear-gradient(270deg,#d0d45b,#fcffb0);
+    border-radius: 50px 50px 50px 50px;
+    box-sizing: content-box;
+    height: 100%;
+    margin-left: -25%;
+    padding-right: 25%;
+}
+.milestonesjs .milestone{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+.milestonesjs{
+    color: white;
+    display: grid;
+    font-size: 1.1rem;
+    font-weight: 500;
+    grid-template-columns: repeat(3,1fr);
+    overflow: hidden;
+    padding: 11px 0;
+    box-sizing: border-box;
+    transition: 600ms;
+}
+.milestonesjs:hover{
+color: #d3d631;
+}
 .socials-wrap{
-    max-width: 100%;
+    max-width: 80%;
     font-family: Overpass,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
     background-color: #151f2e;
     border-radius: inherit;
@@ -184,7 +349,7 @@ color: #cf7070;
     color:white;
     font-size: 1.4rem;
     text-align: center;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px !important;
     text-decoration: none;
     font-family: inherit;
     font-weight: 600;
@@ -194,6 +359,9 @@ color: #cf7070;
 }
 .github:hover{
     color:red;
+}
+.github-card{
+padding: 0 25%;
 }
 .discord{
     color:white;
