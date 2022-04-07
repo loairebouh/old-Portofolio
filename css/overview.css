@@ -55,6 +55,11 @@ width: 100%;
     padding: 22px 25px;
     padding-bottom: 0;
     box-sizing: border-box;
+    background-color: #151f2e;
+    border-right: #00B0BD solid 8px;
+    border-top: #00B0BD solid 8px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: -50%;
 }
 .name{
     color: white;
@@ -77,6 +82,7 @@ width: 100%;
     border-radius: 50%;
     z-index: 1;
     position: relative;
+    left: 20px;
     bottom: -50px;
     border: #00B0BD solid 8px;
 }
