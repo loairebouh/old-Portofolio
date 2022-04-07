@@ -78,6 +78,7 @@ width: 100%;
     z-index: 1;
     position: relative;
     bottom: -50px;
+    border: #00B0BD solid 8px;
 }
 .overview{
     display: grid;
