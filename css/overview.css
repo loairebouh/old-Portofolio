@@ -27,10 +27,9 @@ width: 100%;
 
 .banner{
     background-color: #242538;
-    background-position: 50% 35%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 330px;
+    height: 40%;
     position: relative;
     box-sizing: border-box;
 }
