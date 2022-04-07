@@ -8,15 +8,16 @@
     <meta name="description" content="A university student's Profile/Portfolio">
     <meta name="robots" content="index, follow" />
 
-    <!--OG Stuff-->
+  <!--OG Stuff-->
 
-    <meta property="og:title" content="Me7iz">
-    <meta property="og:site_name" content="Abdallah Portfolio">
-    <meta property="og:description" content="University Portfolio for Abdallah Mehiz">
-    <meta property="og:url" content="https://abdulm7iz.github.io/Uni-Portfolio/">
-    <meta property="og:image" content="../assets/images/avatar.jpg">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="en">
+  <meta property="og:title" content="Me7iz">
+  <meta property="og:site_name" content="Abdallah Portfolio">
+  <meta property="og:description" content="University Portfolio for Abdallah Mehiz">
+  <meta property="og:url" content="https://abdulm7iz.github.io/Uni-Portfolio/">
+  <meta property="og:image" content="../assets/images/avatar.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en">
+
 
     <!--Fonts-->
 
@@ -29,61 +30,71 @@
     <link rel=icon href="assets/images/tablogo.png">
     <link rel="stylesheet" href="css/navbars.css">
     <link rel="stylesheet" href="css/overview.css">
+
     <!---->
     
 </head>
 <body>
+<div class="header-wrap">
     <!--
         <div class="progress" style="width: 100%;"></div>
     -->
-        <div class="profile_background">
-            <img class="avatar" src="assets/images/avatar.jpg">
-            <h2 class="name">Abdallah Mehiz</h2>
+    <div class="banner" style="background-image: url(assets/images/profile_background.png);">
+            <div class="container">
+                <div class="banner-content">
+                    <img class="avatar" src="assets/images/avatar.jpg" title="9/5/2020" >
+                    <div class="name-wrapper">
+                    <h1 class="name">Abdallah</h1>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+
     <nav class="navbar2">
-        <a class="navelements" href="html/portfolio.html">Portfolio</a>
-        <a class="currentsite" href="index.html">Overview</a>
+
+   <a class="currentsite" href="index.html">Overview</a>
+        <a class="navelements" href="html/activity.html">Activity</a>
     </nav>
-    <div class="content">
+</div>
+    <div class="overview">
         <div class="section">
-            <div class="about-paragraph">
-                <div class="about">
-                <h2>Abdout me:</h2>
-                    <p><b>Name</b>: Abdallah "M7iz/Me7iz" Mehiz</p>
-                    <p><b>Gender</b>: Male</p>
-                    <p><b>Birthday</b>: 31/8</p>
-                    <p><b>Country</b>: Algeria</p>
-                    <p><b>Education</b>: University</p>
-                    <p><b>Prefered Languages</b>: #1 - C++, #2 - html, #3 - Css</p>
-                    <p><b>A brief description of me</b>: an idiot who doesn't know how to do shit trying to learn how to do shit</p>
+            <div class="about">
+                <div class="content-wrap"><p>About me :(</p></div>
+            </div>
+            <div class="stats-wrap">
+                <div class="list-stats content-wrap">
+                    <div class="footer">
+                        <div class="milestones">
+                        <div class="milestone">20%</div>
+                        <div class="milestone">50%</div>
+                        <div class="milestone">80%</div>
+                        </div>
+                        <div class="progress">
+                            <div class="bar" style="width: 60%;"></div>
+                        </div>
+                    </div>
                 </div>
-            </div><!---
-            <div class="milestones">
-                10
             </div>
-            <div class="progressbarbackground">
-                <h2 class="lanprogress">C++</h2>
-            </div>
-        -->
         </div>
         <div class="section">
-            <!--<div class="socials">
-                <div class="github-card">
-                <a class="github-card" href="https://github.com/AbdulM7iz"><p>Github:</p></a>
-                <div class="github-card" data-github="AbdulM7iz" data-width="400" data-height="" data-theme="default"></div>
-                <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+            <<div class="socials-wrap">
+                <div class="githubs">
+                <a class="github" href="https://github.com/AbdallahMehiz"><p>Github:</p></a>
+                <div class="github-card" data-github="AbdallahMehiz" data-width="400" data-height="152" data-theme="default"></div>
+                <script src="javascript/github-card.js"></script>
                 </div>
-                </div>-->
-                <div class="socials">
+                </div>
+                <div class="socials-wrap">
                 <div class="discord">
                     <p class="discord">Discord:</p>
-                    <img class="discord" src="https://discord.c99.nl/widget/theme-4/325155189365669888.png" width=580px/>
+                    <img class="discord" src="https://discord.c99.nl/widget/theme-4/325155189365669888.png" style='height: 100%; width: 100%; object-fit: contain'>
                 </div>
             </div>
-            <div class="socials">
+            <div class="socials-wrap">
                 <div class="steam">
                     <a class="steam" href="https://steamcommunity.com/id/AbdallahMehiz"><p>Steam:</p></a>
-                    <a href="https://steamcommunity.com/id/AbdallahMehiz"><img src="assets/images/SteamProfileEmbed.png" width=580px/></a>
+                    <a href="https://steamcommunity.com/id/AbdallahMehiz"><img src="assets/images/SteamProfileEmbed.png" style='height: 100%; width: 100%; object-fit: contain'></a>
                 </div>
             </div>
         </div>
