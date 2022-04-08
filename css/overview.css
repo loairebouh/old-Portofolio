@@ -108,6 +108,7 @@ width: 100%;
     max-width: 100vw;
     max-height: 100%;
     margin-top: 0;
+    overflow: auto;
 }
 .about{
     box-sizing: border-box;
@@ -337,6 +338,49 @@ color: #0d95e4;
 .milestonesjs:hover{
 color: #d3d631;
 }
+.toolscontainer{
+    display: flex;
+}
+.toolicon{
+    background-color: white;
+    padding: 5px;
+    width: 60px;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: white solid 3px;
+    border-right: white solid 1.5px;
+}
+.tool{
+    display: flex;
+    padding-right: 20px;
+    margin: auto;
+}
+.tools{
+    background-color: #151f2e;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: white solid 3px;
+    border-left: white solid 1.5px;
+    color:white;
+    font-size: 1.4rem;
+    text-align: center;
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: 600;
+    transition-duration: 500ms;
+    padding-bottom: 0px;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.tools:hover{
+    color: red;
+    text-decoration: underline;
+}
+/*----------------------------------------------------------------------------*/
+
 .socials-wrap{
     max-width: 80%;
     font-family: Overpass,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
