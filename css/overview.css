@@ -26,6 +26,7 @@ width: 100%;
 
 
 .banner{
+    background-image: url(../assets/images/profile_background.png);
     background-color: #242538;
     background-repeat: no-repeat;
     background-size: cover;
@@ -189,6 +190,55 @@ width: 100%;
     transition: 600ms;
 }
 .milestonescpp:hover{
+color: #0f74a3;
+}
+.progressjava{
+    background: rgb(15,22,31);
+    height: 11px;
+    padding: 0 16.5%;
+    box-sizing: border-box;
+    border-radius: 50px 50px 50px 50px;
+    margin-bottom: 10px;
+}
+.java{
+    color:#02a9ff;
+    margin: 0px 0px 0px 0px;
+    font-size: 1.4rem;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 10px;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.progressjava .barjava{
+    background: linear-gradient(270deg,#02a9ff,#71cfff);
+    border-radius: 50px 50px 50px 50px;
+    box-sizing: content-box;
+    height: 100%;
+    margin-left: -25%;
+    padding-right: 5%;
+    width: 0%;
+}
+.milestonesjava .milestone{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+.milestonesjava{
+    color: white;
+    display: grid;
+    font-size: 1.1rem;
+    font-weight: 500;
+    grid-template-columns: repeat(3,1fr);
+    overflow: hidden;
+    padding: 11px 0;
+    box-sizing: border-box;
+    transition: 600ms;
+}
+.milestonesjava:hover{
 color: #0f74a3;
 }
 .html{
