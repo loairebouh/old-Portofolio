@@ -30,9 +30,11 @@
     <link rel=icon href="assets/images/tablogo.png">
     <link rel="stylesheet" href="css/navbars.css">
     <link rel="stylesheet" href="css/overview.css">
+    <link rel="stylesheet" href="dependencies/aos.css" />
 
     <!-- Scripts -->
     
+    <script src="dependencies/aos.js"></script>
 
 
     <!---->
@@ -55,7 +57,7 @@
         </div>
     <nav class="navbar2" style="border-top-width: 8px;">
    <a class="currentsite" href="index.html">Overview</a>
-        <a class="navelements" href="html/portfolio.html">Portfolio</a>
+    <a class="navelements" href="html/portfolio.html">Portfolio</a>
     </nav>
     <div class="overview">
         <div class="section">
@@ -83,7 +85,7 @@
                         <div class="milestone">50%</div>
                         <div class="milestone">80%</div>
                         </div>
-                        <div class="progresscpp">
+                        <div data-aos="fade-right" class="progresscpp">
                             <div class="barcpp"></div>
                         </div>
                     </div>
@@ -96,7 +98,7 @@
                         <div class="milestone">50%</div>
                         <div class="milestone">80%</div>
                         </div>
-                        <div class="progressjava">
+                        <div data-aos="fade-right" class="progressjava">
                             <div class="barjava"></div>
                         </div>
                     </div>
@@ -109,7 +111,7 @@
                         <div class="milestone">50%</div>
                         <div class="milestone">80%</div>
                         </div>
-                        <div class="progresshtml">
+                        <div data-aos="fade-right" class="progresshtml">
                             <div class="barhtml"></div>
                         </div>
                     </div>
@@ -120,7 +122,7 @@
                         <div class="milestone">50%</div>
                         <div class="milestone">80%</div>
                         </div>
-                        <div class="progresscss">
+                        <div data-aos="fade-right" class="progresscss">
                             <div class="barcss"></div>
                         </div>
                     </div>
@@ -131,7 +133,7 @@
                         <div class="milestone">50%</div>
                         <div class="milestone">80%</div>
                         </div>
-                        <div class="progressjs">
+                        <div data-aos="fade-right" class="progressjs">
                             <div class="barjs"></div>
                         </div>
                     </div>
@@ -159,19 +161,19 @@
                                     -->
         </div>
         <div class="section">
-            <div class="socials-wrap">
+            <div class="socials-wrap" data-aos="fade-left">
                 <div class="githubs">
                 <a class="github" href="https://github.com/AbdallahMehiz"><p class="github">Github:</p></a>
                 <p style="text-align:center;"><img src="profile-summary-card-output\dracula\3-stats.svg" alt="Logo"></p>
                 </div>
                 </div>
-                <div class="socials-wrap">
+                <div class="socials-wrap" data-aos="fade-left">
                 <div class="discord">
                     <p class="discord">Discord:</p>
                     <img class="discord" src="https://discord.c99.nl/widget/theme-4/325155189365669888.png" title="Abdallah#7495" style='height: 100%; width: 100%; object-fit: contain'>
                 </div>
             </div>
-            <div class="socials-wrap">
+            <div class="socials-wrap" data-aos="fade-left">
                 <div class="steam">
                     <a class="steam" href="https://steamcommunity.com/id/AbdallahMehiz"><p>Steam:</p></a>
                     <a href="https://steamcommunity.com/id/AbdallahMehiz"><img src="assets/images/SteamProfileEmbed.png" title="https://steamcommunity.com/id/AbdallahMehiz" style='height: 100%; width: 100%; object-fit: contain'></a>
@@ -179,5 +181,8 @@
             </div>
         </div>
     </div>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
