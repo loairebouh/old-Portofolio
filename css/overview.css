@@ -499,3 +499,82 @@ padding: 0 25%;
 .steam:hover{
     color:red;
 }
+.uselesssocials{
+    color:white;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: 600;
+    transition-duration: 500ms;
+    padding-bottom: 0px;
+    font-family: Overpass,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;;
+}
+.socialsgrid{
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.socialgridelement{
+    margin: auto;
+    padding-top: 20px;
+}
+.facebook{
+    background-color: rgb(24, 119, 242);
+    border-radius: 20px;
+}
+.instagram{ /* thanks stackoverflow */
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    border-radius: 20px;
+}
+.twitter{
+    background-color: #1DA1F2;
+    border-radius: 20px;
+}
+.avatarimage{
+    border-radius: 50%;
+    transition: 800ms;
+    background-image: url(../assets/images/socials/logos/facebook.png);
+    background-size: cover;
+}
+.socialavatarfb{
+    border-radius: 50%;
+    transition: 800ms;
+    margin: 20px 20px;
+    border: white solid 8px;
+    background-image: url(../assets/images/socials/logos/facebook.png);
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+}
+.socialavatarig{
+    border-radius: 50%;
+    transition: 800ms;
+    margin: 20px 20px;
+    border: white solid 8px;
+    background-image: url(../assets/images/socials/logos/instagram.webp);
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+}
+.socialavatartw{
+    border-radius: 50%;
+    transition: 800ms;
+    margin: 20px 20px;
+    margin-top: 20px;
+    border: white solid 8px;
+    background-image: url(../assets/images/socials/logos/twitter.png);
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+}
+.avatarimage:hover{
+    opacity: 50%;
+}
