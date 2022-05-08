@@ -23,8 +23,6 @@ z-index: 99999;
 width: 100%;
 }
 */
-
-
 .banner{
     background-image: url(../assets/images/profile_background.png);
     background-color: #242538;
@@ -427,6 +425,7 @@ color: #0d95e4;
     height: 100%;
     margin-left: -25%;
     padding-right: 5%;
+    margin-bottom: 20px;
     width: 0%;
 }
 .milestonesjs .milestone{
