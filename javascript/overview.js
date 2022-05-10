@@ -1,10 +1,7 @@
 
-let height = 1080;
-let width = 2340;
+console.log(window.innerWidth + " " + window.innerHeight)
 
-if(width/height<1){
-    let overview = document.querySelector(".overview");
-    //overview.style.gridTemplateColumns = "1";
-    overview.style.log
-    console.log(overview.style);
+if(window.innerWidth/window.innerHeight < 1){
+    let overview = document.querySelector(".overview")
+    overview.style.display = "block"
 }
