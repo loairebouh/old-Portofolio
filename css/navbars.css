@@ -1,9 +1,6 @@
-html{
-}
-
 body { /*took me 20mins to find this one*/
     margin: 0;
-  }
+    }
 
 .navbar2{
     position: sticky;
